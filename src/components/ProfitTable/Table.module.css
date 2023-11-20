@@ -1,0 +1,17 @@
+.table_visible {
+    display: table;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.table_hidden {
+    display: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.table_input {
+    border: 0;
+    height: 100%;
+    outline: none;
+}
