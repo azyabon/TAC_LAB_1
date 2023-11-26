@@ -62,9 +62,8 @@ const App: React.FC = () => {
 
     return (
         <div className="App">
-            <h1>Инструментарий 1 лабораторная работа</h1>
+            <h1>1 лабораторная работа</h1>
             <div style={{display: 'flex', flexDirection: 'column', gap: 10}}>
-                <div style={{display: 'flex', gap: 10}}>
                     <div>
                         <span className={'span'}>Cтроительство корпусов займет: </span>
                         <input ref={num1}  placeholder={'лет'} type="number"></input>
@@ -73,7 +72,6 @@ const App: React.FC = () => {
                         <span className={'span'}>Разработка модели изделия займет: </span>
                         <input ref={num2}  placeholder={'лет'} type="number"></input>
                     </div>
-                </div>
                 <div>
                     <span className={'span'}>Наем рабочей силы, монтаж оборудования и отладка модели изделия могут занять: </span>
                     <input ref={numRange1} placeholder={'1'} type="number"></input>
